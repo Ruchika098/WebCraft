@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebCraft - Level 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h2>WebCraft</h2>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#tasks">Tasks</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div>
+        <h1>Frontend Fundamentals </h1>
+        <p>Welcome to my frontend fundamentals project. This page demonstrates HTML, CSS and JavaScript fundamentals.</p>
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+             alt="Web development workspace">
+      </div>
+    </section>
+
+    <section id="tasks" class="card">
+      <h2>Level 1 Tasks</h2>
+
+      <h3>1. Basic Form</h3>
+      <form id="contactForm">
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" placeholder="Your name" required>
+        <button type="submit">Submit</button>
+      </form>
+
+      <h3>2. JavaScript Button</h3>
+      <button id="colorButton">Click Me to Change My Color</button>
+
+      <h3>3. Time-Based Greeting</h3>
+      <button id="greetingButton">Show Greeting</button>
+
+      <h3>4. Basic Calculator</h3>
+      <div class="calculator">
+        <input type="number" id="number1" placeholder="First number">
+        <input type="number" id="number2" placeholder="Second number">
+        <button id="addButton">Add Numbers</button>
+        <p id="result">Result: —</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>Level 1 — Frontend Fundamentals </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
